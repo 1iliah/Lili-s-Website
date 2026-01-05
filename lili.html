@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'univers de Lili</title>
+    <link rel="stylesheet" href="lili.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header" id="navbar">
+    <div class="header-container">
+        <div class="logo-wrapper">
+            <a href="#home" class="logo-text">
+                Lili<span class="dot">.</span>
+            </a>
+            <div class="logo-glow"></div>
+        </div>
+    </div>
+</header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="photo-container reveal">
+                <img src="lili's pic.jpeg" alt="Lili" class="profile-pic">
+                <div class="photo-border"></div>
+            </div>
+            <div class="text-block reveal">
+                <h1>Lili</h1>
+                <p class="subtitle">Une femme d'exception</p>
+                <div class="bio-text">
+                    <p>Née le 1er juin 2007 sous le soleil de Cape Town, Lili porte en elle la richesse d'une double culture. Franco-Sud-Africaine et parfaitement bilingue, elle a traversé les océans pour poursuivre ses rêves en France, où elle s'épanouit aujourd'hui à l'ESITECH.
+
+Passionnée par les mystères du vivant et de la biologie, elle aborde ses études avec la même énergie qu'elle met dans tout ce qu'elle entreprend : avec un sourire radieux et un dynamisme contagieux. Lili, c'est ce mélange rare d'intelligence brillante et d'un petit grain de folie qui la rend absolument unique. Elle est cette personne capable de passer d'une réflexion scientifique sérieuse à un éclat de rire déjanté en une seconde. En bref : une force de la nature, aussi drôle que passionnante.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="couple" id="couple">
+    <div class="glass-wrap reveal">
+        <div class="couple-header">
+            <span class="love-timer" id="timer">Chargement de notre amour...</span>
+            <h2>Son Amoureux</h2>
+        </div>
+        
+        <div class="couple-grid">
+            <div class="couple-text">
+                <p class="highlight">Depuis le 23 novembre 2025, notre vie a pris une tout autre dimension.</p>
+                <p>
+                    Plus qu'une simple rencontre, c'est une évidence qui nous a conduits à partager bien plus que des moments : aujourd'hui, nous partageons <span>notre quotidien et notre petit appart</span>. 
+                </p>
+                <p>
+                    Vivre ensemble, c'est découvrir chaque jour une nouvelle facette de sa lumière. Je suis celui qui connaît ses silences, ses éclats de rire. On construit, brique après brique, une histoire qui n'appartient qu'à nous, soudés par un amour qui ne cesse de grandir.
+                </p>
+                <div class="love-quote">"Home is wherever I'm with you."</div>
+            </div>
+            <div class="couple-photo">
+                <img src="Pic of us.jpeg" alt="Nous deux" class="us-pic">
+                <div class="photo-overlay"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="masterclass-v2" id="masterclass">
+    <div class="section-header reveal">
+        <span class="badge">Portrait de mon coup de cœur</span>
+        <h2>Pourquoi elle est <span>unique</span></h2>
+    </div>
+
+    <div class="bento-grid">
+        <div class="bento-card long reveal" onclick="createHearts(event)">
+            <div class="card-bg"></div>
+            <div class="card-content">
+                <span class="card-icon">☀️</span>
+                <h3>Un Sourire Permanent</h3>
+                <p>Peu importe le moment, Lili a ce don rare de rayonner. Son sourire n'est pas qu'une expression, c'est une force qui rend tout plus beau autour d'elle.</p>
+            </div>
+        </div>
+
+        <div class="bento-card square reveal" onclick="createHearts(event)">
+            <div class="card-bg"></div>
+            <div class="card-content">
+                <span class="card-icon">🤝</span>
+                <h3>Toujours là pour les autres</h3>
+                <p>Une générosité sans limite. Elle est le pilier sur lequel ses proches peuvent toujours compter.</p>
+            </div>
+        </div>
+
+        <div class="bento-card square reveal" onclick="createHearts(event)">
+            <div class="card-bg"></div>
+            <div class="card-content">
+                <span class="card-icon">🧠</span>
+                <h3>Esprit Brillant</h3>
+                <p>Intelligente et perspicace, elle survole ses défis à l'ESITECH avec une aisance naturelle.</p>
+            </div>
+        </div>
+
+        <div class="bento-card wide reveal" onclick="createHearts(event)">
+            <div class="card-bg"></div>
+            <div class="card-content">
+                <div class="flex-content">
+                    <div class="text-side">
+                        <span class="card-icon">🎭</span>
+                        <h3>Drôle... et un peu folle !</h3>
+                        <p>Entre blagues mémorables et petits grains de folie, avec elle, on ne s'ennuie jamais. C'est ce mélange parfait qui nous fait craquer.</p>
+                    </div>
+                    <div class="photo-medallion">
+                        <img src="Funny pic of lili.jpeg" alt="Lili" class="inner-photo">
+                        <div class="rotating-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="friends-section" id="squad">
+    <div class="section-header reveal">
+        <span class="badge">Le cercle proche</span>
+        <h2>Ses 3 piliers à l'<span>ESITECH</span></h2>
+    </div>
+
+    <div class="friends-grid-3">
+        <div class="friend-card reveal">
+            <div class="friend-photo-wrapper">
+                <img src="Lili and Juliette's pic.jpeg" alt="Amie 1" class="friend-img">
+                <div class="friend-overlay">
+                </div>
+            </div>
+            <div class="friend-desc-box">
+                <h3>Juliette</h3>
+                        <span>La complice</span>
+            </div>
+        </div>
+
+        <div class="friend-card reveal">
+            <div class="friend-photo-wrapper">
+                <img src="Lili and Albane's pic.jpeg" alt="Amie 2" class="friend-img">
+                <div class="friend-overlay">
+                    <div class="friend-info">
+                    </div>
+                </div>
+            </div>
+            <div class="friend-desc-box">
+                    <h3>Albane</h3>
+                <span>La folle du village</span>
+            </div>
+        </div>
+
+        <div class="friend-card reveal">
+            <div class="friend-photo-wrapper">
+                <img src="amie3.jpg" class="friend-img">
+                <div class="friend-overlay">
+                    <div class="friend-info">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="friend-desc-box">
+                <h3>Louise</h3>
+                        <span>La sagesse</span>            </div>
+        </div>
+    </div>
+
+    <div class="squad-group reveal">
+        <div class="squad-content">
+            <div class="squad-image-container">
+                <img src="Lili and her 3 friends.jpeg" alt="Le groupe de 4" class="squad-img">
+                <div class="squad-badge">The Fantastic Four</div>
+            </div>
+            <div class="squad-text">
+                <h3>Les Tanas au complet</h3>
+                <p>
+                    À elles quatre, elles forment une équipe inséparable. Entre les fous rires interminables et le soutien mutuel, ce groupe est le véritable moteur de Lili en France. Une amitié soudée qui rend chaque défi plus facile et chaque victoire plus belle.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mother-timeline" id="timeline">
+    <div class="timeline-container reveal">
+        <div class="timeline-grid">
+            
+            <div class="timeline-text">
+                <span class="badge">L'Inspiration</span>
+                <h2>Une vie à ses <span>côtés</span></h2>
+                <p class="timeline-intro">
+                    Chaque étape de la vie de Lili a été guidée par l'amour et l'exemple de sa maman.
+                </p>
+                
+                <div class="timeline-controls">
+                    <button class="control-btn prev" onclick="changeSlide(-1)">←</button>
+                    <div class="current-year" id="year-display">2012</div>
+                    <button class="control-btn next" onclick="changeSlide(1)"> →</button>
+                </div>
+                
+                <p class="love-note">Son modèle, sa force, son exemple. </p>
+            </div>
+
+            <div class="timeline-visual">
+                <div class="slider-wrapper">
+                    <div class="slide active" data-year="2012">
+                        <img src="Young lili and her mom.jpeg" alt="Lili bébé">
+                        <div class="slide-caption">Les premiers pas</div>
+                    </div>
+                    <div class="slide" data-year="2023">
+                        <img src="Old lili and her mom.jpeg" alt="Lili ado">
+                        <div class="slide-caption">Lili ado avec sa maman</div>
+                    </div>
+                    <div class="slide" data-year="2025">
+                        <img src="Now lili and her mom.png" alt="Now">
+                        <div class="slide-caption">NOW</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <section class="contact-section" id="contact">
+    <div class="section-header reveal">
+        <span class="badge">En savoir plus...</span>
+        <h2>Informations <span>Importantes</span></h2>
+    </div>
+
+    <div class="contact-container reveal">
+        <div class="contact-card">
+            <div class="contact-item">
+                <div class="icon-box">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="contact-info">
+                    <span>Téléphone</span>
+                    <a href="tel:+33600000000">07 69 68 56 95</a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="icon-box">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="contact-info">
+                    <span>Email</span>
+                    <a href="mailto:lili@example.com">asbliliah@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="icon-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="contact-info">
+                    <span>Localisation Actuelle</span>
+                    <p>Rouen</p>
+                </div>
+            </div>
+            
+            <div class="contact-item status-item">
+    <div class="icon-box">
+        <i class="fa-solid fa-briefcase"></i>
+    </div>
+    <div class="contact-info">
+        <span>Situation Actuelle</span>
+        <p class="status-text">Étudiante en Génie Biologique</p>
+        <div class="status-indicator">
+            <span class="pulse-dot"></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</section>
+</section>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<footer class="master-footer">
+    <div class="footer-container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+    <div class="footer-logo-container">
+        <h2 class="footer-logo">Lili<span></span></h2>
+        <div class="logo-badge">FR • ZA</div>
+    </div>
+    
+    <div class="footer-bio-animated">
+        <p class="main-bio">L'essence d'une personne <span>Formidable</span></p>
+    </div>
+
+    <div class="footer-keyword-cloud">
+        <span class="keyword">Souriante</span>
+        <span class="keyword">Dynamique</span>
+        <span class="keyword">Joyeuse</span>
+    </div>
+
+    <div class="reading-progress-container">
+        <div class="progress-bar"><div id="bar"></div></div>
+    </div>
+</div>
+
+            <div class="footer-nav">
+                <h3>Explorer</h3>
+                <div class="nav-links">
+                    <a href="#home">Portrait</a>
+                    <a href="#couple">Notre Histoire</a>
+                    <a href="#masterclass">Ses Atouts</a>
+                    <a href="#squad">Les Tanas</a>
+                    <a href="#timeline">Lili's Mother</a>
+                </div>
+            </div>
+
+            <div class="footer-socials">
+                <h3>Réseaux</h3>
+                <div class="social-icons">
+                    <a href="https://fra01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.instagram.com%2Fl1liah%3Figsh%3DMXkyYXExbWMxdTZnbg%3D%3D&data=05%7C02%7Ckylian.barbieri%40viacesi.fr%7C08f138ad84524e92acfa08de45721769%7C190ce420b15744aebc2f69563baa5a3b%7C1%7C0%7C639024553470258565%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=MBhLy%2BF1LUmvgEl0ZcpPV%2FTNGQfBDRRz2L1%2BUKb9PZI%3D&reserved=0" target="_blank" class="social-item" onclick="fireSurprise()">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://fra01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fliliah-ait-si-birouk-bb9a70331%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dios_app&data=05%7C02%7Ckylian.barbieri%40viacesi.fr%7C08f138ad84524e92acfa08de45721769%7C190ce420b15744aebc2f69563baa5a3b%7C1%7C0%7C639024553470276294%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=HI%2F3QKlsUj%2B%2FzW%2FKTgbWzhg3qD52EfFAQhMFnQ6cNRs%3D&reserved=0" target="_blank" class="social-item" onclick="fireSurprise()">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div class="mood-tag">✨ Rayonnante</div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 — Lili's Website</p>
+            <button class="back-to-top" onclick="scrollToTop()">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
+        </div>
+    </div>
+</footer>
+
+<div class="surprise-container reveal">
+    <button class="magic-button" onclick="startCredits()">
+        <span data-fr="Ne clique surtout pas ici..." >Ne clique surtout pas ici...</span>
+    </button>
+</div>
+
+
+</div>
+<div id="credits-screen" class="credits-overlay">
+    <div class="credits-wrap">
+        <div class="credits-content" id="credits-text">
+            
+            <h1>Ma meilleure rencontre 2025...</h1>
+            
+            <div class="letter-body">
+                <p>
+                    Lili, je suis tellement heureux d'avoir fait ta rencontre cette année. 
+                    Tu m'apportes énormément de bonheur, de rires et une force que je n'imaginais pas.
+                </p>
+
+                <div class="floating-icon">✨</div>
+
+                <p>
+                    Ce site, c'est ton espace. Je l'ai créé pour toi, mais j'espère que tu pourras 
+                    l'améliorer et l'updater toute ta vie.
+                </p>
+
+                <div class="floating-icon">📖</div>
+
+                <p>
+                    Qu'il devienne le carnet de bord de tes réussites, de tes voyages, 
+                    et de tous les moments formidables qui t'attendent.
+                </p>
+
+                <div class="floating-icon">🌍</div>
+
+                <p>
+                    Je serai toujours là pour t'aider à coder de nouvelles pages de ta vie.
+                </p>
+            </div>
+
+            <div class="final-heart">❤️</div>
+            
+            <div class="exit-wrap">
+                <button class="exit-button-arrow" onclick="closeCredits()">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <div class="exit-circle"></div>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script src="lili.js"></script>
+</body>
+</html>
